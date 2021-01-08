@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Document</title>
+    <style>
+        
+@media only screen and (max-width: 480px)
+{
+   .menu{
+        width: 100%;
+    }
+
+   .menu > ul li {
+        width: 100%;
+    }
+
+    .menu ul li:hover{
+        width: 100%;
+    }
+}
+
+.menu{
+    margin-top:80px;
+}
+li{
+    list-style: none;
+    border: 1px solid blue;
+    width: 200px;
+    background-color: #204969;
+    color: #08ffc8;
+    font-size: 24px;
+    text-align: center;
+    height: 70px;
+    box-sizing:border-box;
+    padding-top: 20px ;
+    float: left;
+}
+
+
+li:hover {
+    list-style: none;
+    border: 1px solid blue;
+    width: 200px;
+    font-size: 24px;
+    background-color: #08ffc8;
+    color: #204969;
+    text-align: center;
+    height: 70px;
+    box-sizing:border-box;
+    padding-top: 20px ;
+    float: left;
+}
+
+ul li ul{
+    margin-left: -41px;
+    margin-top: 22px;
+    display: none;
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+
+    </style>
+</head>
+<body>
+    <nav class="menu">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Course
+                <ul>
+                    <li>Programming</li>
+                    <li>Networking</li>
+                    <li>Digital Marketing</li>
+                    <li>Graphic Designing</li>
+
+                </ul>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
